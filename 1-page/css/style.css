@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1280px;
+  margin: 0px auto;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+.nav-ul-li {
+  list-style: none;
+}
+.li-href {
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888f;
+  font-style: bold;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero-section {
+  width: 1280px;
+  height: 600px;
+  background-color: #a2a2a2;
+  margin-top: 33px;
+  border-radius: 10px;
+  padding-top: 117px;
+  padding-left: 85px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.hero-title {
+  color: #fefcf7;
+  font-size: 72px;
+  font-weight: 900;
+  width: 493px;
+  font-family: fraunces;
+  line-height: 72px;
+  font-style: black;
+  text-align: left;
+}
+.hero-text {
+  line-height: 26px;
+  font-size: 16px;
+  width: 445px;
+  color: #fefcf7;
+  font-weight: 400;
+  font-family: Barlow;
+  font-style: Regular;
+  margin-top: 32px;
+}
+.hero-button {
+  margin-top: 71px;
+  width: 217px;
+  height: 56px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #0e8784;
+  border: none;
+  color: #fefcf7;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .services-img{
+    position: absolute;
+    margin-top: 336px;
+} */
+.services-abs {
+  background-image: url(./img/our-c.svg);
+  margin-top: 136px;
+
+  width: 1111px;
+  height: 196px;
+}
+.services-cards {
+  width: 1111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -70px;
+  gap: 30px;
+}
+.services-card {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services-title {
+  margin-top: 71px;
+  color: #333d4b;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+}
+.services-text {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333d4b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: regular;
+  width: 255px;
+}
+.about {
+  width: 1280px;
+  height: 728px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  margin-top:236px;
+}
+.about-dark {
+  height: 577px;
+  width: 1280px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #2c343e;
+  padding-top: 100px;
+}
+.dark-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fefcf7;
+  line-height: 48px;
+}
+.dark-text {
+  text-align: center;
+  margin-top: 32px;
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  font-weight: 400;
+}
+.about-card{
+    width: 350px;
+    height: 382px;
+    background-color: #0E8784;
+    margin-top: -200px;
+    border-radius: 8px;
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.about-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.about-card-title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fefcf7;
+    margin-top: 56px;
+}
+.about-card-text{
+    width: 255px;
+    color: #fefcf7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+}
+.info-section{
+margin-top: 200px;
+}
+.info-section-title{
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+color: #83888F;
+padding-left: 100px;
+}
+.info-line{
+width: 780px;
+height: 2px;
+background-color: #FDD6BA;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 80px;
+margin-left: 100px;
+}
+.line{
+   width: 31px;
+    height: 31px;
+    border: 1px solid #0E8784;
+     border-radius:100% ;
+   -webkit-border-radius:100% ;
+    -moz-border-radius:100% ;
+   background-color: #fefcf7;
+   -ms-border-radius:100% ; -o-border-radius:100% ;
+
+}
+.info-cards{
+  margin-top: 67px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 100px;
+  gap: 95px;
+}
+.info-card{
+  width: 285px;
+
+}
+.info-number{
+  color: #FDD6BA;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px;
+
+}
+.info-card-title{
+  margin-top: 38px;
+  font-size: 32px;
+  width: 255px;
+  line-height: 36px;
+  color: #333D4B;
+    font-weight: 900;
+}
+.info-card-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #333D4B;
+margin-top: 42px ;
+text-align: left;
+}
+.info-button{
+  margin-top: 64px;
+  width: 217px;
+  height: 56px;
+  background-color:  #0e8784;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #FEFCF7;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: none;
+}
+.footer-section{
+  margin-top: 200px;
+  margin-bottom: 88px;
+  width: 1280px;
+  height: 120px;
+  background-color: #2C343E;
+  padding-left: 86px;
+  padding-right: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-footer{
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+.footer-ul{
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.footer-ul-li{
+  list-style: none;
+}
+.footer-ul-li-href{
+  font-weight: 700;
+  font-size: 12px;
+  color: #83888F;
+}
+.footer-icons{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.under{
+  text-decoration: underline;
+}
